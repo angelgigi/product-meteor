@@ -1,0 +1,18 @@
+<template name="productList">
+  <div class="posts">
+  <table class="table table-bordered table-responsive">
+      <thead>
+      <tr class="active">
+          <th>Product name</th>
+          <th>Table</th>
+          <th>Time</th>
+          <th>Status</th>
+          <th>Commands</th>
+      </tr>
+      </thead>
+    {{#each products}}
+      {{> productItem}}
+    {{/each}}
+  </table>
+  </div>
+</template>

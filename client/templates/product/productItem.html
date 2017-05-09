@@ -1,0 +1,21 @@
+<template name="productItem">
+
+    <tbody>
+    <tr>
+        <td>{{product}}</td>
+        <td>{{table}}</td>
+        <td>{{time}}</td>
+
+        <td class={{id}}    style="color:#fff;background-color:{{color}}">{{status}}</td>
+
+        <td>
+            <div class="btn-group ">
+                <button type="button" class="btn btn-success">Odered</button>
+                <button type="button" class="btn btn-warning">Cooked</button>
+                <button type="button" class="btn btn-primary">Done</button>
+                <button type="button" class="btn btn-danger">Cancel</button>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</template>
